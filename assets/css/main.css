@@ -80,6 +80,37 @@ margin-bottom: 0em !important;}
 .container{
     margin-top: 20px;
 } 
+
+
+.footer{
+  background-image:url(../images/news_letter_background_image_home@1x.png);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+}
+li a{
+  color:white ;
+}
+
+.custom-file-label {
+  height: calc(2.7rem + 2px);
+  border: none;
+}
+.custom-file-label:hover{
+  background-color: #cf888881;
+}
+.custom-file-label::after {
+  height: calc(2.7rem + 2px);
+  background-color: black;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  content: "Send";
+  padding: 0.7rem 3.75rem;
+  border: 1px solid #000000;
+}
+
+
+
 .fa-spin-fast {
   -webkit-animation: fa-spin-fast 0.2s infinite linear;
   animation: fa-spin-fast 0.2s infinite linear;
