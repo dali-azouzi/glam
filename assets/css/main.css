@@ -28,10 +28,9 @@
 
 .container2{
 padding: 50px;
-        background-color: #f4f4f4;
-        height: 768px;
-    
+        background-color: #f4f4f4;  
     }
+
     
 
 li a:hover{
@@ -50,6 +49,10 @@ hr{
     width: 60%;
     color:#d12730;
     border:1px solid #d12730;
+}
+.text-title{
+  color:#d12730;
+  font-weight: bold
 }
    
 .hrCard{
